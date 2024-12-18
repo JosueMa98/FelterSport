@@ -47,7 +47,7 @@ Sigue estos pasos para ejecutar el proyecto en tu entorno local:
 
 3. **Importar la Base de Datos**:
    - Abre `phpMyAdmin` en tu servidor local.
-   - Importa el archivo `database/feltersport.sql` para crear las tablas necesarias.
+   - Importa el archivo `database/felter.sql` para crear las tablas necesarias.
 
 4. **Configurar la Conexión a la Base de Datos**:
    - Abre el archivo `conexion.php` y configura tus credenciales:
@@ -55,7 +55,7 @@ Sigue estos pasos para ejecutar el proyecto en tu entorno local:
      $host = 'localhost';
      $user = 'root';
      $password = ''; // Contraseña vacía por defecto
-     $database = 'feltersport';
+     $database = 'felter';
      ```
 
 5. **Iniciar la Aplicación**:
